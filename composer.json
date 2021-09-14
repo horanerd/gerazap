@@ -1,0 +1,26 @@
+{
+  "name": "horanerd/guilherme",
+  "description": "Controla Aê",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Guilherme de sousa do nascimento",
+      "email": "guilherme@horanerd.com.br",
+      "homepage": "https://www.horanerd.com.br",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": []
+  },
+  "require": {
+    "php": "^7.1",
+    "ext-pdo": "^7.1"
+  }
+}
