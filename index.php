@@ -1,14 +1,6 @@
 <?php
 ob_start();
 
-define("CONF_DB_HOST", "localhost");
-define("CONF_DB_USER", "root");
-define("CONF_DB_PASS", "");
-define("CONF_DB_NAME", "frases");
-
-require __DIR__ . "/vendor/autoload.php";
-
-use Source\Models\Frases;
 
 ?>
 
