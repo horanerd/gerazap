@@ -43,28 +43,7 @@ use Source\Models\Frases;
         </div>
     </section>
 
-    <section class="conteiner">
-        <div class="content">
-            <?php
-            $list = (new Frases())->find()->fetch(true);
 
-
-            foreach ($list as $lists) :
-            ?>
-                <div class="row">
-                    <ul class="list-group list-group-horizontal">
-
-                        <li class="list-group-item">
-                            <p> <?= $lists->frase; ?> </p>
-                        </li>
-                    </ul>
-                </div>
-
-            <?php
-            endforeach;
-            ?>
-        </div>
-    </section>
 </body>
 
 </html>
